@@ -81,5 +81,11 @@ namespace BTTH
         {
             Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+                MessageBox.Show("Trống", "THông báo");
+        }
     }
 }

@@ -65,7 +65,7 @@
             this.grListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grListBox.Location = new System.Drawing.Point(57, 85);
             this.grListBox.Name = "grListBox";
-            this.grListBox.Size = new System.Drawing.Size(241, 252);
+            this.grListBox.Size = new System.Drawing.Size(241, 295);
             this.grListBox.TabIndex = 1;
             this.grListBox.TabStop = false;
             this.grListBox.Text = "Listbox";
@@ -80,7 +80,7 @@
             this.grbXuli.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbXuli.Location = new System.Drawing.Point(444, 85);
             this.grbXuli.Name = "grbXuli";
-            this.grbXuli.Size = new System.Drawing.Size(241, 252);
+            this.grbXuli.Size = new System.Drawing.Size(280, 252);
             this.grbXuli.TabIndex = 2;
             this.grbXuli.TabStop = false;
             this.grbXuli.Text = "Xử lí ListBox";
@@ -91,10 +91,11 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 27);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // bntNhap
             // 
-            this.bntNhap.Location = new System.Drawing.Point(0, 107);
+            this.bntNhap.Location = new System.Drawing.Point(0, 94);
             this.bntNhap.Name = "bntNhap";
             this.bntNhap.Size = new System.Drawing.Size(241, 34);
             this.bntNhap.TabIndex = 1;
@@ -108,14 +109,14 @@
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(0, 162);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(241, 104);
+            this.listBox1.Size = new System.Drawing.Size(241, 124);
             this.listBox1.TabIndex = 2;
             // 
             // btn1
             // 
             this.btn1.Location = new System.Drawing.Point(0, 34);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(241, 39);
+            this.btn1.Size = new System.Drawing.Size(291, 39);
             this.btn1.TabIndex = 0;
             this.btn1.Text = "Tổng các phần tử";
             this.btn1.UseVisualStyleBackColor = true;
@@ -125,7 +126,7 @@
             // 
             this.btn2.Location = new System.Drawing.Point(0, 79);
             this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(241, 39);
+            this.btn2.Size = new System.Drawing.Size(280, 39);
             this.btn2.TabIndex = 1;
             this.btn2.Text = "Xoá đầu và cuối";
             this.btn2.UseVisualStyleBackColor = true;
@@ -135,7 +136,7 @@
             // 
             this.btn4.Location = new System.Drawing.Point(0, 169);
             this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(241, 39);
+            this.btn4.Size = new System.Drawing.Size(280, 39);
             this.btn4.TabIndex = 2;
             this.btn4.Text = "Tăng lên 2 đơn vị";
             this.btn4.UseVisualStyleBackColor = true;
@@ -145,7 +146,7 @@
             // 
             this.bn3.Location = new System.Drawing.Point(0, 124);
             this.bn3.Name = "bn3";
-            this.bn3.Size = new System.Drawing.Size(241, 39);
+            this.bn3.Size = new System.Drawing.Size(291, 39);
             this.bn3.TabIndex = 3;
             this.bn3.Text = "Xoá phần tử đang chọn";
             this.bn3.UseVisualStyleBackColor = true;
@@ -155,7 +156,7 @@
             // 
             this.bnt5.Location = new System.Drawing.Point(0, 213);
             this.bnt5.Name = "bnt5";
-            this.bnt5.Size = new System.Drawing.Size(241, 39);
+            this.bnt5.Size = new System.Drawing.Size(291, 39);
             this.bnt5.TabIndex = 5;
             this.bnt5.Text = "Thay bằng bình phương";
             this.bnt5.UseVisualStyleBackColor = true;
@@ -164,9 +165,9 @@
             // bntKetThuc
             // 
             this.bntKetThuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntKetThuc.Location = new System.Drawing.Point(57, 386);
+            this.bntKetThuc.Location = new System.Drawing.Point(-21, 386);
             this.bntKetThuc.Name = "bntKetThuc";
-            this.bntKetThuc.Size = new System.Drawing.Size(628, 39);
+            this.bntKetThuc.Size = new System.Drawing.Size(858, 39);
             this.bntKetThuc.TabIndex = 3;
             this.bntKetThuc.Text = "Kết thúc";
             this.bntKetThuc.UseVisualStyleBackColor = true;
