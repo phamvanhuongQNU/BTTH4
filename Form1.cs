@@ -19,9 +19,14 @@ namespace BTTH
 
         private void bntNhap_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add(textBox1.Text);
-            textBox1.Text = "";
-            textBox1.Focus();
+            if (textBox1.Text != "")
+            {
+                listBox1.Items.Add(textBox1.Text);
+                textBox1.Text = "";
+                textBox1.Focus();
+            }
+            else
+                MessageBox.Show("Không có dữ liệu", "Thông báo");
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -84,8 +89,7 @@ namespace BTTH
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBox1.Text == "")
-                MessageBox.Show("Trống", "THông báo");
+            
         }
     }
 }
